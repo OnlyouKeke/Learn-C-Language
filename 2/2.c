@@ -25,23 +25,23 @@ int main()
 
     unsigned int k = 4294967295L; // 4bytes (0 to +4,294,967,295) %u
 
-    long long int l = 9223372036854775807;//
+    long long int l = 9223372036854775807; //
 
     unsigned long long int m = 18446744073709551615U;
 
-    printf("%c\n",a);
-    printf("%s\n",b);
-    printf("%f\n",c);
-    printf("%lf\n",d);
-    printf("%d\n",e); // bugfix: 使用 %d 输出 bool 类型
-    printf("%c\n",f); // bugfix: 使用 %c 输出 char 类型
-    printf("%d\n",g); // bugfix: 使用 %d 输出 unsigned char 类型
-    printf("%d\n",h); // bugfix: 使用 %d 输出 short int 类型
-    printf("%d\n",i); // bugfix: 使用 %d 输出 unsigned short int 类型
-    printf("%d\n",j); // bugfix: 使用 %d 输出 int 类型
-    printf("%u\n",k); // bugfix: 使用 %u 输出 unsigned int 类型
-    printf("%lld\n",l); // bugfix: 使用 %lld 输出 long long int 类型
-    printf("%llu\n",m); // bugfix: 使用 %llu 输出 unsigned long long int 类型
+    printf("%c\n", a);
+    printf("%s\n", b);
+    printf("%f\n", c);
+    printf("%lf\n", d);
+    printf("%d\n", e);   // 使用 %d 输出 bool 类型
+    printf("%c\n", f);   // 使用 %c 输出 char 类型
+    printf("%d\n", g);   // 使用 %d 输出 unsigned char 类型
+    printf("%d\n", h);   // 使用 %d 输出 short int 类型
+    printf("%d\n", i);   // 使用 %d 输出 unsigned short int 类型
+    printf("%d\n", j);   // 使用 %d 输出 int 类型
+    printf("%u\n", k);   // 使用 %u 输出 unsigned int 类型
+    printf("%lld\n", l); // 使用 %lld 输出 long long int 类型
+    printf("%llu\n", m); // 使用 %llu 输出 unsigned long long int 类型
 
     return 0;
 }
