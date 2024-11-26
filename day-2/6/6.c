@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+// 输入输出
 int main()
 {
     char name[25]; //bytes

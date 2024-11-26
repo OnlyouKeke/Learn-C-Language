@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+// 数学计算函数
 int main()
 {
 
@@ -12,8 +12,8 @@ int main()
     double F = fabs(-100); // 100，绝对值;
     double G = log(3);     // 1.098612，自然对数;
     double H = sin(45);    // 0.707107，正弦;
-    double I cos(45);      // 0.707107，余弦;
-    double J tan(45);      // 1.61978，正切;
+    double I =cos(45);      // 0.707107，余弦;
+    double J =tan(45);      // 1.61978，正切;
 
     printf("\n%d", E);
 
