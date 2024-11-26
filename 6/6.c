@@ -1,9 +1,18 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
+    char name[25];
+    int age;
 
-    printf("keke666\n");
+    printf("what's your name?\n");
+    scanf("%s", name);
+    
+    printf("\nhao old are you ?\n");
+    scanf("%d", &age);
+
+    printf("hello %s\n", name);
+    printf("you are %d years old\n", age);
 
     return 0;
-
 }
