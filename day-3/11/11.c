@@ -2,6 +2,7 @@
 
 //case 语句 的使用
 int main(){
+    
 
     char grade;
 
@@ -29,5 +30,4 @@ int main(){
     }
 
     return 0;
-
 }
