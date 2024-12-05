@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 //case 语句 的使用
+//case 后面跟break 是为了跳出switch语句，否则会一直执行下去
 int main(){
     
 
